@@ -1,11 +1,11 @@
-'use strict'
+module.exports = function breakText () {
+    text = text || ''
 
-module.exports = function breakText (text = '') {
     const components = []
 
-    let idx = 0
+    var idx = 0
 
-    for (let i = 0; i < text.length; i++) {
+    for (var i = 0; i < text.length; i++) {
         const c = text[i]
 
         if (!components[idx]) {
