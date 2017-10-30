@@ -1,4 +1,4 @@
-module.exports = function breakText () {
+module.exports = function breakText (text) {
     text = text || ''
 
     const components = []
